@@ -1,0 +1,22 @@
+.footer {
+  background: linear-gradient(90deg, #000000 2.5%, #333333 98.61%);
+  padding: 40px 0;
+}
+
+.footer ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer h4 {
+  font-size: 15px;
+}
+
+.social {
+  display: flex;
+  justify-content: space-between;
+}
+
+.social a {
+  margin: 0 30px;
+}

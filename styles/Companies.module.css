@@ -1,0 +1,11 @@
+.companies {
+  background: #f8f8f8;
+  padding-bottom: 75px;
+}
+
+.companies .wrapper {
+  background: #fff;
+  justify-content: space-between;
+  padding: 10px;
+  align-items: center;
+}

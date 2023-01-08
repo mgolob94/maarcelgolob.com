@@ -1,0 +1,48 @@
+.ctaWrapper {
+  padding: 40px 60px;
+  max-width: 754px;
+  margin: 0 auto;
+  background: linear-gradient(90deg, #058b8c 3.38%, #058b8c 100%);
+}
+
+.ctaWrapper h2 {
+  padding-top: 20px;
+  color: #fff;
+  position: relative;
+}
+
+.ctaWrapper h2::before {
+  position: absolute;
+  content: "";
+  left: 50%;
+  top: 0;
+  height: 2px;
+  width: 40px;
+  margin-left: -20px;
+  background: #fff;
+}
+
+.ctaWrapper p {
+  font-size: 20px;
+  color: #fff;
+}
+
+.actionBtn {
+  display: inline-block;
+  padding: 13px;
+  background: #fff;
+  box-shadow: 0px 6px 25px rgba(5, 139, 140, 0.4);
+  border-radius: 64px;
+  color: #058b8c !important;
+  text-decoration: none;
+  font-weight: bold;
+  font-family: "Montserrat", sans-serif;
+  font-size: 12px;
+  line-height: 15px;
+}
+
+.actionBtn img {
+  width: 30px;
+  height: 30px;
+  margin-left: 10px;
+}

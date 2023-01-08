@@ -1,0 +1,85 @@
+.menu {
+  list-style: none;
+}
+
+.siteHeader {
+  /* background: linear-gradient(90deg, #000000 2.5%, #5e5e5e 98.61%); */
+  box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.1);
+  padding: 23px;
+}
+
+.social {
+  display: flex;
+  margin-right: 20px;
+}
+
+.social a {
+  display: block;
+  margin-right: 15px;
+}
+
+#primaryMenu {
+  list-style: none;
+  margin: 0;
+}
+
+#primaryMenu li {
+  position: relative;
+  display: inline-block;
+  margin: 0 20px;
+  padding: 10px 0;
+}
+
+#primaryMenu li a {
+  font-weight: 500;
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  line-height: 20px;
+  color: #000;
+  text-decoration: none;
+}
+
+#primaryMenu li.current-menu-item::before {
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  right: 0;
+  background: #058b8c;
+  height: 2px;
+  width: 100%;
+}
+
+.contact a {
+  display: block;
+  background: linear-gradient(90deg, #058b8c 3.38%, #058b8c 100%);
+  color: #fff;
+  text-decoration: none;
+  padding: 10px 30px;
+  border-radius: 50px;
+  border-top-right-radius: 0;
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 17px;
+}
+
+.card {
+  padding: 30px;
+  justify-content: center;
+  align-items: center;
+  background: #ffffff;
+  box-shadow: 0px 6px 25px rgba(5, 139, 140, 0.4);
+  border-radius: 26px;
+  border: 0;
+  height: 132px;
+  background-size: contain !important;
+  background-position: center !important;
+  background-repeat: no-repeat !important;
+  flex-direction: unset !important;
+}
+
+.card a {
+  display: block;
+}
