@@ -6,7 +6,7 @@ export default function Projects() {
     <>
       <section id="projects" className="section">
         <div class="container">
-          <h2 class="secondaryTitle">My projects</h2>
+          <h2 class="secondaryTitle">Reference</h2>
           <div class="row">
             <div class="col-md-4">
               <Link

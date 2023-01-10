@@ -5,7 +5,7 @@
 .siteHeader {
   /* background: linear-gradient(90deg, #000000 2.5%, #5e5e5e 98.61%); */
   box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.1);
-  padding: 23px;
+  padding: 10px;
 }
 
 .social {
@@ -82,4 +82,23 @@
 
 .card a {
   display: block;
+}
+
+@media (max-width: 768px) {
+  .logo {
+    height: 50px;
+    width: auto;
+  }
+
+  .siteHeader {
+    padding: 5px 20px;
+  }
+
+  #primaryMenu {
+    text-align: center;
+    padding: 0;
+  }
+
+  .nav {
+  }
 }

@@ -7,7 +7,7 @@ export default function Companies() {
     <>
       <section className={styles.companies}>
         <div className="container">
-          <h2 className="secondaryTitle">The companies I work with</h2>
+          <h2 className="secondaryTitle">Podjetja, s katerimi sodelujem</h2>
           <div className="d-flex align-items-center justify-content-between bg-white p-3">
             <div>
               <Link

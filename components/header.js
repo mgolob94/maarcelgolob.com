@@ -9,22 +9,28 @@ export default function Header() {
   return (
     <>
       <header className={styles.siteHeader}>
-        <div className="container d-flex justify-content-between align-items-center">
-          <h1 className="logo">
-            M<span>G</span>
-          </h1>
-          <nav id={styles.siteNavigation}>
+        <div
+          className={`container d-flex justify-content-between align-items-center ${styles.header}`}
+        >
+          <Image
+            className={styles.logo}
+            src="/MG.png"
+            width={100}
+            height={60}
+            alt=""
+          />
+          <nav id={styles.siteNavigation} className={styles.nav}>
             <ul id={styles.primaryMenu}>
               <li className="current-menu-item">
-                <Link href="#">Home</Link>
+                <Link href="#">Domov</Link>
               </li>
               <li>
-                <Link href="#projects">Projects</Link>
+                <Link href="#projects">Projekti</Link>
               </li>
             </ul>
           </nav>
           <div className="d-flex">
-            <div className={`${styles.social}`}>
+            <div className={`d-none d-md-block ${styles.social}`}>
               <Link href="#">
                 <Image
                   src="/insta-g.svg"
@@ -50,8 +56,8 @@ export default function Header() {
                 />
               </Link>
             </div>
-            <div className={styles.contact}>
-              <Link href="mailto:info@marcelgolob.com">Contact</Link>
+            <div className={`d-none d-md-block ${styles.contact}`}>
+              <Link href="mailto:info@marcelgolob.com">Kontakt</Link>
             </div>
           </div>
         </div>

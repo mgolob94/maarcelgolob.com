@@ -190,3 +190,21 @@ li.current-menu-item {
   top: 0;
   z-index: -1;
 }
+
+@media (max-width: 768px) {
+  .mainTitle {
+    font-size: 22px;
+    line-height: 26px;
+    text-align: center;
+  }
+  .secondaryTitle {
+    text-align: center;
+    font-size: 22px;
+  }
+  .mainTitle::after,
+  .secondaryTitle:after {
+    width: 30px;
+    left: 50%;
+    margin-left: -15px;
+  }
+}

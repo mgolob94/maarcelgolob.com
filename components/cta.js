@@ -8,14 +8,15 @@ export default function Cta() {
       <section className="section cta">
         <div className="container">
           <div className={`text-center ${styles.ctaWrapper}`}>
-            <h2 className="text-center mb-5">Enhance your business with me</h2>
+            <h2 className="text-center mb-5">Izboljšajte svoje poslovanje</h2>
             <p className="mb-4">
-              Duis lorem et tellus enim nullam nibh est turpis integer.
-              <br /> Tempus orci elementum lacus, integer urna mattis tellus
-              aliquet. Sagittis sollicitudin massa.
+              Dobra spletna stran je ključnega pomena za uspeh
+              vašega podjetja v današnjem digitalnem svetu. Spletna prisotnost
+              je neizogibna za vsako podjetje, ki želi doseči široko publiko in
+              povečati svojo prepoznavnost na trgu.
             </p>
             <Link href="" className={`mt-4 ${styles.actionBtn}`}>
-              BOOK A FREE CONSULTATION{" "}
+              ŽELIM BREZPLAČNO PONUDBO{" "}
               <Image src="/arrow-green.svg" alt="" width={20} height={20} />
             </Link>
           </div>

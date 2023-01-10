@@ -10,24 +10,23 @@ export default function Hero() {
           <div className="row">
             <div className="col-md-12">
               <h1 className="mainTitle mb-4">
-                Wellcome to my Portfolio Website
+                Izdelava naprednih spletnih mest in aplikacij
               </h1>
               <h2>
-                I’m Marcel, a freelancer from the Slovenia. I’m working with
-                brands to create
-                <br /> the projects that leave a lasting impression.
+                Naš tim izkušenih spletnih razvijalcev in oblikovalcev ponuja
+                kompleksne storitve razvoja spletnih strani, trgovin in
+                aplikacij. Vaše želje pretvorimo v digitalno realnost.
               </h2>
               <Link href="" className={`mt-4 ${styles.actionBtn}`}>
-                BOOK A FREE CONSULTATION{" "}
+                ŽELIM BREZPLAČNO PONUDBO{" "}
                 <Image src="/arrow.svg" alt="" width={20} height={20} />
               </Link>
             </div>
             {/* <div className="col-md-6">
-              <Image
-                src="/homepage_first.png"
+              <img
+                src="/web-design-internet-website-responsive-software-concept.jpg"
                 alt="Marcel Golob"
-                width={500}
-                height={500}
+                className="w-100"
               />
             </div> */}
           </div>
