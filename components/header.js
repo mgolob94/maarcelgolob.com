@@ -30,7 +30,7 @@ export default function Header() {
             </ul>
           </nav>
           <div className="d-flex">
-            <div className={`d-none d-md-block ${styles.social}`}>
+            <div className={`d-none d-md-flex ${styles.social}`}>
               <Link href="#">
                 <Image
                   src="/insta-g.svg"
