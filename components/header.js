@@ -12,11 +12,13 @@ export default function Header() {
         <div
           className={`container d-flex justify-content-between align-items-center ${styles.header}`}
         >
-          <img className={styles.logo} src="/logo.svg" alt="" />
+          <Link href="/">
+            <img className={styles.logo} src="/logo.svg" alt="" />
+          </Link>
           <nav id={styles.siteNavigation} className={styles.nav}>
             <ul id={styles.primaryMenu}>
               <li className="current-menu-item">
-                <Link href="#">Domov</Link>
+                <Link href="/">Domov</Link>
               </li>
               <li>
                 <Link href="#projects">Projekti</Link>
