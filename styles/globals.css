@@ -175,6 +175,7 @@ li.current-menu-item {
 
 .footerLinks a {
   font-size: 14px;
+  color: #fff;
 }
 
 .logo {
@@ -191,7 +192,15 @@ li.current-menu-item {
   z-index: -1;
 }
 
+.col-md-4 {
+  position: relative;
+}
+
 @media (max-width: 768px) {
+  .footerLinks {
+    text-align: center;
+    margin-bottom: 20px;
+  }
   .mainTitle {
     font-size: 22px;
     line-height: 26px;
@@ -206,5 +215,21 @@ li.current-menu-item {
     width: 30px;
     left: 50%;
     margin-left: -15px;
+  }
+
+  .web,
+  .store,
+  .mobile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .web h3,
+  .store h3,
+  .mobile h3 {
+    order: -1;
+    font-size: 14px;
+    margin: 0;
   }
 }

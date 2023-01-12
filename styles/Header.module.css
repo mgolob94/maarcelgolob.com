@@ -83,6 +83,10 @@
 .card a {
   display: block;
 }
+.logo {
+  height: 50px;
+  width: auto;
+}
 
 @media (max-width: 768px) {
   .logo {
@@ -91,7 +95,7 @@
   }
 
   .siteHeader {
-    padding: 5px 20px;
+    padding: 5px 10px;
   }
 
   #primaryMenu {

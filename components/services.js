@@ -9,7 +9,7 @@ export default function Services() {
         <div className="container">
           <h2 className="secondaryTitle">Katere storitve nudim</h2>
           <div className="row">
-            <div className="col-md-4 text-center">
+            <div className="col-md-4 text-center store">
               <Image
                 src="/web.svg"
                 alt="spletne-strani"
@@ -18,7 +18,7 @@ export default function Services() {
               />
               <h3 className="text-center mt-3">Spletne strani</h3>
             </div>
-            <div className="col-md-4 text-center">
+            <div className="col-md-4 text-center web">
               <Image
                 src="/stores.svg"
                 alt="spletne-trgovine"
@@ -27,7 +27,7 @@ export default function Services() {
               />
               <h3 className="text-center mt-3">Spletne trgovine</h3>
             </div>
-            <div className="col-md-4 text-center">
+            <div className="col-md-4 text-center mobile">
               <Image
                 src="/mobile.svg"
                 alt="mobilne-aplikacije"

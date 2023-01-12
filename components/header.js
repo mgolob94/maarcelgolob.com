@@ -12,13 +12,7 @@ export default function Header() {
         <div
           className={`container d-flex justify-content-between align-items-center ${styles.header}`}
         >
-          <Image
-            className={styles.logo}
-            src="/MG.png"
-            width={100}
-            height={60}
-            alt=""
-          />
+          <img className={styles.logo} src="/logo.svg" alt="" />
           <nav id={styles.siteNavigation} className={styles.nav}>
             <ul id={styles.primaryMenu}>
               <li className="current-menu-item">
@@ -31,7 +25,7 @@ export default function Header() {
           </nav>
           <div className="d-flex">
             <div className={`d-none d-md-flex ${styles.social}`}>
-              <Link href="#">
+              <Link href="https://www.instagram.com/marcelgolob/">
                 <Image
                   src="/insta-g.svg"
                   alt="Instagram logo"
@@ -39,7 +33,7 @@ export default function Header() {
                   height={20}
                 />
               </Link>
-              <Link href="#">
+              <Link href="https://www.facebook.com/marcelgolob/">
                 <Image
                   src="/fb-g.svg"
                   alt="Facebook logo"
@@ -47,7 +41,7 @@ export default function Header() {
                   height={20}
                 />
               </Link>
-              <Link href="#">
+              <Link href="https://www.linkedin.com/in/marcel-golob/">
                 <Image
                   src="/ln-g.svg"
                   alt="Linkedin logo"
