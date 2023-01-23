@@ -11,26 +11,32 @@ export default function Services() {
           <div className="row">
             <div className="col-md-4 text-center store">
               <Image
-                src="/web.svg"
-                alt="spletne-strani"
+                src="/izdelava_spletnih_strani.svg"
+                alt="Izdelava spletnih strani"
+                title="Izdelava spletnih strani"
+                tooltip="Izdelava spletnih strani"
                 width={290}
                 height={250}
               />
-              <h3 className="text-center mt-3">Spletne strani</h3>
+              <h3 className="text-center mt-3">Izdelava spletnih strani</h3>
             </div>
             <div className="col-md-4 text-center web">
               <Image
-                src="/stores.svg"
-                alt="spletne-trgovine"
+                src="/izdelava_spletnihh_trgovin.svg"
+                alt="Izdelava spletnih trgovin"
+                title="Izdelava spletnih trgovin"
+                tooltip="Izdelava spletnih trgovin"
                 width={290}
                 height={250}
               />
-              <h3 className="text-center mt-3">Spletne trgovine</h3>
+              <h3 className="text-center mt-3">Izdelava spletnih trgovin</h3>
             </div>
             <div className="col-md-4 text-center mobile">
               <Image
-                src="/mobile.svg"
-                alt="mobilne-aplikacije"
+                src="/razvoj_mobilnih_aplikacij.svg"
+                alt="Izdelava mobilnih aplikacij"
+                title="Razvoj mobilnih aplikacij"
+                tooltip="Razvoj mobilnih aplikacij"
                 width={290}
                 height={250}
               />

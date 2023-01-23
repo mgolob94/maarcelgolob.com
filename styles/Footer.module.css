@@ -22,6 +22,11 @@
   margin: 0 30px;
 }
 
+.logoFooter {
+  width: 100px;
+  margin-bottom: 40px;
+}
+
 @media (max-width: 768px) {
   .social {
     justify-content: center;

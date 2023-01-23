@@ -13,7 +13,14 @@ export default function Header() {
           className={`container d-flex justify-content-between align-items-center ${styles.header}`}
         >
           <Link href="/">
-            <img className={styles.logo} src="/logo.svg" alt="" />
+            <Image
+              className={styles.logo}
+              src="/logo.svg"
+              alt="Izdelava spletnih trgovin"
+              title="Izdelava spletnih strani"
+              width={93}
+              height={50}
+            />
           </Link>
           <nav id={styles.siteNavigation} className={styles.nav}>
             <ul id={styles.primaryMenu}>
@@ -21,8 +28,11 @@ export default function Header() {
                 <Link href="/">Domov</Link>
               </li>
               <li>
-                <Link href="#projects">Projekti</Link>
+                <Link href="/#projects">Projekti</Link>
               </li>
+              {/* <li>
+                <Link href="/contact">Kontakt</Link>
+              </li> */}
             </ul>
           </nav>
           <div className="d-flex">

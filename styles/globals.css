@@ -156,6 +156,21 @@ p {
   background: #058b8c;
 }
 
+.btn-primary {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 15px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  background: linear-gradient(90deg, #058b8c 3.38%, #058b8c 100%);
+  border-radius: 64px;
+  color: #ffffff;
+  text-transform: uppercase;
+  padding: 15px 80px;
+}
+
 .cardItem {
   margin: 0 20px;
 }
@@ -166,7 +181,7 @@ p {
 
 .projectName {
   font-weight: 700;
-  font-size: 18px;
+  font-size: 22px;
 }
 
 li.current-menu-item {
@@ -196,7 +211,32 @@ li.current-menu-item {
   position: relative;
 }
 
+.typing {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 63px;
+}
+
+.contactWrapper {
+  background: linear-gradient(90deg, #000000 2.5%, #5e5e5e 98.61%);
+}
+
+.form-input {
+  height: 64px;
+}
+
+.form-text {
+  height: 264px;
+}
+
 @media (max-width: 768px) {
+  .typing {
+    line-height: 30px;
+    margin: 0 auto;
+    font-size: 24px;
+  }
   .footerLinks {
     text-align: center;
     margin-bottom: 20px;
@@ -232,4 +272,16 @@ li.current-menu-item {
     font-size: 14px;
     margin: 0;
   }
+  .copyright {
+    text-align: center;
+    margin-bottom: 25px;
+  }
+
+  .contactHeader {
+    text-align: center;
+  }
+}
+.copyright p {
+  font-size: 12px;
+  line-height: normal;
 }

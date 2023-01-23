@@ -8,6 +8,22 @@ export default function Footer() {
       <footer className={styles.footer}>
         <div className="container">
           <div className="row">
+            <div className="col-md-4 copyright">
+              <Link href="/">
+                <Image
+                  className={styles.logoFooter}
+                  src="/logo.svg"
+                  alt="Izdelava spletnih strani Celje"
+                  title="Izdelava spletnih strani Celje"
+                  width={93}
+                  height={50}
+                />
+              </Link>
+              <p>
+                Copyright © Računalniško programiranje,
+                <br /> Marcel Golob, s.p.
+              </p>
+            </div>
             <div className="col-md-4 footerLinks">
               <h4 className="mb-4">HITRE POVEZAVE</h4>
               <ul>
@@ -25,7 +41,8 @@ export default function Footer() {
                 <Link href="https://www.instagram.com/marcelgolob/">
                   <Image
                     src="/insta-g.svg"
-                    alt="Instagram logo"
+                    alt="Izdelava spletnih trgovin Celje"
+                    title="Izdelava spletnih trgovin Celje"
                     width={20}
                     height={20}
                   />
@@ -33,7 +50,8 @@ export default function Footer() {
                 <Link href="https://www.facebook.com/marcelgolob/">
                   <Image
                     src="/fb-g.svg"
-                    alt="Facebook logo"
+                    alt="Izdelava spletnih trgovin Celje"
+                    title="Izdelava spletnih trgovin Celje"
                     width={20}
                     height={20}
                   />
@@ -41,7 +59,8 @@ export default function Footer() {
                 <Link href="https://www.linkedin.com/in/marcel-golob/">
                   <Image
                     src="/ln-g.svg"
-                    alt="Linkedin logo"
+                    alt="Izdelava spletnih trgovin Celje"
+                    title="Izdelava spletnih trgovin Celje"
                     width={20}
                     height={20}
                   />

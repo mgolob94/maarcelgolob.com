@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 import styles from "../styles/Projects.module.css";
 
 export default function Projects() {
@@ -16,9 +17,23 @@ export default function Projects() {
               >
                 <div className="d-flex justify-content-between align-items-center mb-3">
                   <h3 className="projectName m-0">SANJSKI ATELJE</h3>
-                  <img src="/arrow-right.svg" />
+                  <Image
+                    src="/arrow-right.svg"
+                    width={30}
+                    height={18}
+                    alt="Izdelava spletnih strani"
+                    title="Izdelava spletnih strani"
+                  />
                 </div>
-                <img src="/sanjskiatelje.jpeg" alt="" />
+                <Image
+                  src="/spletna_stran_sanjskiatelje.jpeg"
+                  alt="Izdelava spletne strani Sanjski atelje"
+                  title="Izdelava spletne strani Sanjski atelje"
+                  tooltip="Izdelava spletne strani Sanjski atelje"
+                  width={419}
+                  height={419}
+                  className="img-fluid"
+                />
               </Link>
             </div>
             <div className="col-md-4">
@@ -29,9 +44,23 @@ export default function Projects() {
               >
                 <div className="d-flex justify-content-between align-items-center mb-3">
                   <h3 className="projectName m-0">WEB CENTER</h3>
-                  <img src="/arrow-right.svg" />
+                  <Image
+                    src="/arrow-right.svg"
+                    width={30}
+                    height={18}
+                    alt="Izdelava spletnih strani"
+                    title="Izdelava spletnih strani"
+                  />
                 </div>
-                <img src="/webcenter.jpeg" alt="" />
+                <Image
+                  src="/spletna_stran_webcenter.jpeg"
+                  alt="Izdelava spletne strani Web Center"
+                  title="Izdelava spletne strani Web Center"
+                  tooltip="Izdelava spletne strani Web Center"
+                  width={419}
+                  height={419}
+                  className="img-fluid"
+                />
               </Link>
             </div>
             <div className="col-md-4">
@@ -42,9 +71,23 @@ export default function Projects() {
               >
                 <div className="d-flex justify-content-between align-items-center mb-3">
                   <h3 className="projectName m-0">IZIFROC</h3>
-                  <img src="/arrow-right.svg" />
+                  <Image
+                    src="/arrow-right.svg"
+                    width={30}
+                    height={18}
+                    alt="Izdelava spletnih strani"
+                    title="Izdelava spletnih strani"
+                  />
                 </div>
-                <img src="/izifroc.jpeg" alt="" />
+                <Image
+                  src="/izdelava_spletne_trgovine_izifroc.jpeg"
+                  alt="Izdelava spletne trgovine Izi Froc"
+                  title="Izdelava spletne trgovine Izi Froc"
+                  tooltip="Izdelava spletne trgovine Izi Froc"
+                  width={419}
+                  height={419}
+                  className="img-fluid"
+                />
               </Link>
             </div>
           </div>

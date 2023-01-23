@@ -1,6 +1,7 @@
 import Image from "next/image";
 import styles from "../styles/Hero.module.css";
 import Link from "next/link";
+import Typewriter from "typewriter-effect";
 
 export default function Hero() {
   return (
@@ -9,9 +10,21 @@ export default function Hero() {
         <div className="container">
           <div className="row">
             <div className="col-md-12">
-              <h1 className="mainTitle mb-4">
-                Izdelujem napredna spletna mesta in aplikacije
-              </h1>
+              <div className="mb-4">
+                <h1 className="mainTitle">Izdelava naprednih spletnih</h1>
+                <div className="typing">
+                  {" "}
+                  <Typewriter
+                    options={{
+                      strings: ["strani", "trgovin", "aplikacij"],
+                      autoStart: true,
+                      loop: true,
+                      delay: 75,
+                    }}
+                  />
+                </div>
+              </div>
+
               <h2>
                 Dovolite mi, da vaše želje pretvorim v digitalno realnost.
               </h2>
@@ -20,7 +33,13 @@ export default function Hero() {
                 className={`mt-5 ${styles.actionBtn}`}
               >
                 ŽELIM BREZPLAČNO PONUDBO{" "}
-                <Image src="/arrow.svg" alt="" width={20} height={20} />
+                <Image
+                  src="/arrow.svg"
+                  alt="Izdelava spletnih strani Ljubljana"
+                  title="Izdelava spletnih strani Ljubljana"
+                  width={20}
+                  height={20}
+                />
               </Link>
             </div>
             {/* <div className="col-md-6">
