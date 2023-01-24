@@ -13,13 +13,13 @@ export default function Layout({ children }) {
       <Head>
         <title>Izdelava spletnih strani in aplikacij</title>
         <meta
-          name="description"
-          content="Izdelava spletnih strani in aplikacij - marcelgolob.com"
-          key="desc"
-        />
-        <meta
           property="og:title"
           content="Izdelava spletnih strani in aplikacij - marcelgolob.com"
+        />
+        <meta
+          name="description"
+          content="Izdelava spletnih strani, izdelava spletnih trgovin, razvoj mobilnih aplikacij, napredne spletne rešitve. Dovolite mi, da vaše želje pretvorim v digitalno realnost."
+          key="desc"
         />
         <meta
           property="og:description"
