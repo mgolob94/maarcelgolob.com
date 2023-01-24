@@ -11,11 +11,13 @@ export default function Layout({ children }) {
   return (
     <>
       <Head>
-        <title>Izdelava naprednih spletnih mest in aplikacij</title>
+        <title>Izdelava spletnih strani in aplikacij </title>
         <meta
           name="description"
-          content="Izdelujem spletne strani, spletne trgovine in mobilne aplikacij. Dovolite mi, da vaše želje pretvorim v digitalno realnost."
+          content="Izdelava spletnih strani, izdelava spletnih trgovin, razvoj mobilnih aplikacij, rešitve po meri. Dovolite mi, da vaše želje pretvorim v digitalno realnost."
         />
+        <meta name="keywords" content="Izdelava spletnih strani, izdelava spletnih trgovin, razvoj mobilnih aplikacij, rešitve po meri" />
+        <meta name="author" content="Marcel Golob" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
