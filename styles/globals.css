@@ -218,6 +218,10 @@ li.current-menu-item {
   line-height: 63px;
 }
 
+.typing span {
+  color: #ffffff;
+}
+
 .contactWrapper {
   background: linear-gradient(90deg, #000000 2.5%, #5e5e5e 98.61%);
 }
@@ -232,7 +236,7 @@ li.current-menu-item {
 
 .green {
   color: green;
-   font-size: 14px;
+  font-size: 14px;
 }
 
 .red {

@@ -66,7 +66,7 @@ export default function Header() {
               </Link>
             </div>
             <div className={`d-none d-md-block ${styles.contact}`}>
-              <Link href="mailto:info@marcelgolob.com">Kontakt</Link>
+              <Link href="/contact">Kontakt</Link>
             </div>
           </div>
         </div>
