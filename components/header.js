@@ -33,6 +33,9 @@ export default function Header() {
               {/* <li>
                 <Link href="/contact">Kontakt</Link>
               </li> */}
+              <li>
+                <Link href="/blog">Blog</Link>
+              </li>
             </ul>
           </nav>
           <div className="d-flex">
