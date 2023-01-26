@@ -230,6 +230,16 @@ li.current-menu-item {
   height: 264px;
 }
 
+.green {
+  color: green;
+   font-size: 14px;
+}
+
+.red {
+  color: red;
+  font-size: 14px;
+}
+
 @media (max-width: 768px) {
   .typing {
     line-height: 30px;
