@@ -121,6 +121,11 @@ p {
   line-height: 24px;
 }
 
+a:hover,
+a:focus {
+  color: #058b8c;
+}
+
 .section {
   padding: 79px 0;
 }
@@ -168,6 +173,8 @@ p {
   color: #ffffff;
   text-transform: uppercase;
   padding: 15px 80px;
+  outline: none;
+  border: 0;
 }
 
 .cardItem {
@@ -302,9 +309,6 @@ li.current-menu-item {
   }
 }
 
-.posts {
-  min-height: calc(100vh - 500px);
-}
 .copyright p {
   font-size: 12px;
   line-height: normal;
@@ -312,4 +316,16 @@ li.current-menu-item {
 
 .hamburger-react > div {
   background: linear-gradient(90deg, #058b8c 3.38%, #058b8c 100%) !important;
+}
+
+.phone {
+  margin-right: 10px;
+}
+
+.phoneNumber {
+  font-size: 20px;
+}
+
+.grey {
+  background-color: #f8f8f8;
 }

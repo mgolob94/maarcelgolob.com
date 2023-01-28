@@ -12,14 +12,11 @@ export default function Cta() {
               Ste pripravljeni dvigniti vašo spletno podobo na višji nivo?
             </h2>
             <p className="mb-4">
-              Izdelava spletne strani je ključnega pomena za uspeh vašega podjetja v
-              današnjem digitalnem svetu. Dovolite nam, da za vas izdelamo
-              unikatno spletno stran, ki bo navdušila.
+              Izdelava spletne strani je ključnega pomena za uspeh vašega
+              podjetja v današnjem digitalnem svetu. Dovolite nam, da za vas
+              izdelamo unikatno spletno stran, ki bo navdušila.
             </p>
-            <Link
-              href="mailto:info@marcelgolob.com"
-              className={`mt-4 ${styles.actionBtn}`}
-            >
+            <Link href="/contact" className={`mt-4 ${styles.actionBtn}`}>
               ŽELIM BREZPLAČNO PONUDBO{" "}
               <Image
                 src="/arrow-green.svg"

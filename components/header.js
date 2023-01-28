@@ -53,18 +53,20 @@ export default function Header() {
           </nav>
           <div className="d-none d-lg-flex">
             <div className={`d-none d-lg-flex ${styles.social}`}>
-              <Link href="https://www.instagram.com/marcelgolob/">
+              <Link href="https://www.instagram.com/marcelgolobdev/">
                 <Image
                   src="/insta-g.svg"
-                  alt="Instagram logo"
+                  alt="Izdelava spletnih strani Ljubljana"
+                  title="Izdelava spletnih strani Ljubljana"
                   width={20}
                   height={20}
                 />
               </Link>
-              <Link href="https://www.facebook.com/marcelgolob/">
+              <Link href="https://www.facebook.com/mg.izdelavaspletnihstrani/">
                 <Image
                   src="/fb-g.svg"
-                  alt="Facebook logo"
+                  alt="Izdelava spletnih strani Celje"
+                  title="Izdelava spletnih strani Celje"
                   width={20}
                   height={20}
                 />
@@ -72,7 +74,8 @@ export default function Header() {
               <Link href="https://www.linkedin.com/in/marcel-golob/">
                 <Image
                   src="/ln-g.svg"
-                  alt="Linkedin logo"
+                  alt="Izdelava spletnih strani Maribor"
+                  title="Izdelava spletnih strani Maribor"
                   width={20}
                   height={20}
                 />

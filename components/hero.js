@@ -28,10 +28,7 @@ export default function Hero() {
               <h2>
                 Dovolite mi, da vaše želje pretvorim v digitalno realnost.
               </h2>
-              <Link
-                href="mailto:info@marcelgolob.com"
-                className={`mt-5 ${styles.actionBtn}`}
-              >
+              <Link href="/contact" className={`mt-5 ${styles.actionBtn}`}>
                 ŽELIM BREZPLAČNO PONUDBO{" "}
                 <Image
                   src="/arrow.svg"
