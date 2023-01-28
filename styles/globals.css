@@ -115,10 +115,10 @@ h1 span {
 }
 
 p {
-  font-size: 22px;
+  font-size: 14px;
   font-weight: normal;
   color: #434343;
-  line-height: 32.65px;
+  line-height: 24px;
 }
 
 .section {
@@ -222,6 +222,10 @@ li.current-menu-item {
   color: #ffffff;
 }
 
+.objectCover {
+  object-fit: cover;
+}
+
 .contactWrapper {
   background: linear-gradient(90deg, #000000 2.5%, #5e5e5e 98.61%);
 }
@@ -245,6 +249,9 @@ li.current-menu-item {
 }
 
 @media (max-width: 768px) {
+  li.current-menu-item {
+    border-top: 0;
+  }
   .typing {
     line-height: 30px;
     margin: 0 auto;
@@ -294,7 +301,15 @@ li.current-menu-item {
     text-align: center;
   }
 }
+
+.posts {
+  min-height: calc(100vh - 500px);
+}
 .copyright p {
   font-size: 12px;
   line-height: normal;
+}
+
+.hamburger-react > div {
+  background: linear-gradient(90deg, #058b8c 3.38%, #058b8c 100%) !important;
 }

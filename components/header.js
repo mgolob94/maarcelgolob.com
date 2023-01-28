@@ -1,16 +1,20 @@
 import Image from "next/image";
+import { useState } from "react";
 import { Inter } from "@next/font/google";
 import styles from "../styles/Header.module.css";
 import Link from "next/link";
+import Hamburger from "hamburger-react";
 
 const inter = Inter({ subsets: ["latin"] });
 
 export default function Header() {
+  const [isOpen, setOpen] = useState(false);
+
   return (
     <>
       <header className={styles.siteHeader}>
         <div
-          className={`container d-flex justify-content-between align-items-center ${styles.header}`}
+          className={`container d-flex justify-content-between align-items-center p-2 ${styles.header}`}
         >
           <Link href="/">
             <Image
@@ -22,7 +26,19 @@ export default function Header() {
               height={50}
             />
           </Link>
-          <nav id={styles.siteNavigation} className={styles.nav}>
+          <div className="mobileBtn d-lg-none">
+            <Hamburger
+              rounded
+              size={25}
+              toggled={isOpen}
+              toggle={setOpen}
+              easing="ease-in"
+            />
+          </div>
+          <nav
+            id={styles.siteNavigation}
+            className={`d-none d-lg-block ${styles.nav}`}
+          >
             <ul id={styles.primaryMenu}>
               <li className="current-menu-item">
                 <Link href="/">Domov</Link>
@@ -30,16 +46,13 @@ export default function Header() {
               <li>
                 <Link href="/#projects">Projekti</Link>
               </li>
-              {/* <li>
-                <Link href="/contact">Kontakt</Link>
-              </li> */}
-              {/* <li>
+              <li>
                 <Link href="/blog">Blog</Link>
-              </li> */}
+              </li>
             </ul>
           </nav>
-          <div className="d-flex">
-            <div className={`d-none d-md-flex ${styles.social}`}>
+          <div className="d-none d-lg-flex">
+            <div className={`d-none d-lg-flex ${styles.social}`}>
               <Link href="https://www.instagram.com/marcelgolob/">
                 <Image
                   src="/insta-g.svg"
@@ -65,11 +78,31 @@ export default function Header() {
                 />
               </Link>
             </div>
-            <div className={`d-none d-md-block ${styles.contact}`}>
+            <div className={`d-none d-lg-block ${styles.contact}`}>
               <Link href="/contact">Kontakt</Link>
             </div>
           </div>
         </div>
+        {isOpen && (
+          <div className={`d-lg-none ${styles.mobileNavigationWrapper}`}>
+            <nav id={styles.siteNavigation} className={` ${styles.nav}`}>
+              <ul id={styles.primaryMenu}>
+                <li className="current-menu-item">
+                  <Link href="/">Domov</Link>
+                </li>
+                <li>
+                  <Link href="/#projects">Projekti</Link>
+                </li>
+                <li>
+                  <Link href="/contact">Kontakt</Link>
+                </li>
+                <li>
+                  <Link href="/blog">Blog</Link>
+                </li>
+              </ul>
+            </nav>
+          </div>
+        )}
       </header>
     </>
   );

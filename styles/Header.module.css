@@ -5,7 +5,7 @@
 .siteHeader {
   /* background: linear-gradient(90deg, #000000 2.5%, #5e5e5e 98.61%); */
   box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.1);
-  padding: 10px;
+  padding: 0;
   position: fixed;
   background: white;
   width: 100%;
@@ -94,6 +94,12 @@
   width: auto;
 }
 
+.mobileNavigationWrapper {
+  background: linear-gradient(90deg, #000000 2.5%, #333333 98.61%);
+  transition: all 0.5s ease;
+  box-shadow: 0 0 15px 0 rgb(0 0 0 / 10%);
+}
+
 @media (max-width: 768px) {
   .logo {
     height: 50px;
@@ -103,6 +109,14 @@
   #primaryMenu {
     text-align: center;
     padding: 0;
+  }
+
+  /* #primaryMenu li {
+    display: block;
+  } */
+
+  #primaryMenu li a {
+    color: #fff;
   }
 
   .nav {
