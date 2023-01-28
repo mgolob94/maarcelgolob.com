@@ -11,7 +11,14 @@ export default function Footer() {
             href="tel:+38651654876"
             className="d-flex align-items-center justify-content-center"
           >
-            <img className="phone" src="/telephone.png" />
+            <Image
+              className="phone"
+              src="/telephone.png"
+              width={24}
+              height={24}
+              alt="Izdelava spletnih strani Celje"
+              title="Izdelava spletnih strani Celje"
+            />
             <div className="phoneNumber">+386 51 654 876</div>
           </a>
         </div>
