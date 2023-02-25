@@ -3,18 +3,16 @@ export default function (req, res) {
   console.log(req.body);
 
   const transporter = nodemailer.createTransport({
-    port: 465,
-    host: "sh22.neoserv.si",
+    service: "gmail",
     auth: {
-      user: "info@marcelgolob.com",
-      pass: `${process.env.PASSWORD}`,
+      user: "marcel.golob@gmail.com",
+      pass: `${process.env.GPASS}`,
     },
-    secure: true,
   });
 
   const mailData = {
-    from: "info@marcelgolob.com",
-    to: "info@marcelgolob.com",
+    from: "marcel.golob@gmail.com",
+    to: "marcel.golob@gmail.com",
     subject: `Povpraševanje od ${req.body.name} - marcegolob.com`,
     text: req.body.message,
     html: `<div>${req.body.message}</div>`,

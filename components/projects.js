@@ -32,7 +32,7 @@ export default function Projects() {
                   tooltip="Izdelava spletne strani Sanjski atelje"
                   width={419}
                   height={419}
-                  className="img-fluid"
+                  className="img-fluid w-100"
                 />
               </Link>
             </div>
@@ -59,7 +59,7 @@ export default function Projects() {
                   tooltip="Izdelava spletne strani Web Center"
                   width={419}
                   height={419}
-                  className="img-fluid"
+                  className="img-fluid w-100"
                 />
               </Link>
             </div>
@@ -86,7 +86,7 @@ export default function Projects() {
                   tooltip="Izdelava spletne trgovine Izi Froc"
                   width={419}
                   height={419}
-                  className="img-fluid"
+                  className="img-fluid w-100"
                 />
               </Link>
             </div>
