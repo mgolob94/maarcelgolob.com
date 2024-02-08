@@ -7,7 +7,8 @@ export default function Services() {
     <>
       <section className={`section ${styles.services}`}>
         <div className="container">
-          <h2 className="secondaryTitle">Katere storitve nudim</h2>
+          <h2 className="secondaryTitle">Digitalne rešitve</h2>
+          <p></p>
           <div className="row">
             <div className="col-md-4 text-center store">
               <Image
@@ -18,7 +19,7 @@ export default function Services() {
                 width={290}
                 height={250}
               />
-              <h3 className="text-center mt-3">Izdelava spletnih strani</h3>
+              <h3 className="text-center mt-3">Izdelava spletnih aplikacij</h3>
             </div>
             <div className="col-md-4 text-center web">
               <Image

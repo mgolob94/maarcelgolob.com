@@ -12,7 +12,6 @@ export default function Index() {
       <Layout>
         <Hero />
         <Projects />
-        <Services />
 
         {/* <Companies /> */}
         {/* <Cta /> */}

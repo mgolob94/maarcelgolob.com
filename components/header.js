@@ -80,7 +80,7 @@ export default function Header() {
         </div>
         {isOpen && (
           <div className={`d-lg-none ${styles.mobileNavigationWrapper}`}>
-                        <div className="d-flex">
+                        {/* <div className="d-flex">
               <Link href="https://www.instagram.com/marcelgolobdev/">
                 <Image
                   src="/insta-g.svg"
@@ -102,7 +102,7 @@ export default function Header() {
             </div>
             <div className={`mt-5 ${styles.contact}`}>
               <Link href="mailto:info@marcelgolob.com">Kontakt</Link>
-            </div>
+            </div> */}
 
             
             {/* <nav id={styles.siteNavigation} className={` ${styles.nav}`}>
