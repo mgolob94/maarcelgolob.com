@@ -1,14 +1,14 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   reactStrictMode: true,
-  images: {
-    remotePatterns: [
-      {
-        protocol: "https",
-        hostname: "blog.marcelgolob.com",
-      },
-    ],
-  },
+  // images: {
+  //   remotePatterns: [
+  //     {
+  //       protocol: "https",
+  //       hostname: "marcelgolob.com",
+  //     },
+  //   ],
+  // },
 };
 
 const withBundleAnalyzer = require("@next/bundle-analyzer")({

@@ -19,19 +19,19 @@
 }
 
 .hero {
-  background: linear-gradient(90deg, #000000 2.5%, #333333 98.61%);
+  background: #ffffff;
   padding: 150px 0;
 }
 
 .hero h2 {
   font-size: 16px;
-  color: white;
+  color: grey;
   font-weight: 400;
   line-height: 26px;
 }
 
 .hero h1 {
-  color: white;
+  color: #000000;
   margin: 0;
 }
 
@@ -41,14 +41,8 @@
 
 @media (max-width: 768px) {
   .hero {
-    background: linear-gradient(90deg, #000000 2.5%, #333333 98.61%);
-    padding: 80px 0;
+    padding: 80px 20px;
     text-align: center;
-  }
-
-  .hero h1,
-  .hero h2 {
-    color: #fff;
   }
 
   .hero h1 {

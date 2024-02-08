@@ -1,6 +1,6 @@
 .footer {
-  background: linear-gradient(90deg, #000000 2.5%, #333333 98.61%);
-  padding: 40px 0;
+  /* background: linear-gradient(90deg, #000000 2.5%, #333333 98.61%); */
+  padding: 20px 0;
 }
 
 .footer ul {
@@ -10,7 +10,7 @@
 
 .footer h4 {
   font-size: 15px;
-  color: #fff;
+  color: #000;
 }
 
 .social {
@@ -24,7 +24,6 @@
 
 .logoFooter {
   width: 100px;
-  margin-bottom: 40px;
 }
 
 @media (max-width: 768px) {

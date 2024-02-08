@@ -1,10 +1,44 @@
 .card {
   border: 0;
   border-radius: 0;
+  padding: 50px;
+  height: 100%;
+}
+
+.cardContent {
+  width: 100%;
+  height: 100%;
+  top: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  left: 0;
+  background: rgba(5,139,140,0.9);
+  opacity: 0;
+}
+
+.card:hover .cardContent {
+  opacity: 1;
+  transition: opacity 0.8s;
+}
+
+.cardContent h2,
+.cardContent h3,
+.cardContent h4 {
+  color: white;
+}
+
+.cardgreen {
+  background: linear-gradient(90deg, #058b8c 3.38%, #058b8c 100%);
+}
+
+.cardred {
+  background: linear-gradient(90deg, #e6006f 3.38%, #a70064 100%);
 }
 
 @media (max-width: 768px) {
   .card {
-    margin-bottom: 30px;
+    padding: 10px;
   }
 }
