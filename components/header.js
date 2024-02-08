@@ -99,10 +99,10 @@ export default function Header() {
                   height={20}
                 />
               </Link>
-            </div>
+            </div> */}
             <div className={`mt-5 ${styles.contact}`}>
               <Link href="mailto:info@marcelgolob.com">Kontakt</Link>
-            </div> */}
+            </div>
 
             
             {/* <nav id={styles.siteNavigation} className={` ${styles.nav}`}>
