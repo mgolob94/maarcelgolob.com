@@ -11,19 +11,19 @@ export default function Layout({ children }) {
   return (
     <>
       <Head>
-        <title>Izdelava spletnih strani in aplikacij</title>
+        <title>Razvoj inovativnih digitalni rešitev | spletne in mobilne aplikacije, SEO optimizacija, napredni sistemi, MVP razvoj </title>
         <meta
           property="og:title"
-          content="Izdelava spletnih strani in aplikacij - marcelgolob.com"
+          content="Razvoj inovativnih digitalni rešitev | spletne in mobilne aplikacije, SEO optimizacija, napredni sistemi, MVP razvoj"
         />
         <meta
           name="description"
-          content="Izdelava spletnih strani, izdelava spletnih trgovin, razvoj mobilnih aplikacij, napredne spletne rešitve. Dovolite mi, da vaše želje pretvorim v digitalno realnost."
+          content="Preoblikujemo digitalni svet s kreativnim razvojem spletnih in mobilnih aplikacij, učinkovito SEO optimizacijo in inovativnimi tehnološkimi rešitvami. Pospešite rast vašega podjetja."
           key="desc"
         />
         <meta
           property="og:description"
-          content="Izdelava spletnih strani, izdelava spletnih trgovin, razvoj mobilnih aplikacij, napredne spletne rešitve. Dovolite mi, da vaše želje pretvorim v digitalno realnost."
+          content="Preoblikujemo digitalni svet s kreativnim razvojem spletnih in mobilnih aplikacij, učinkovito SEO optimizacijo in inovativnimi tehnološkimi rešitvami. Pospešite rast vašega podjetja."
         />
         <meta
           property="og:image"
@@ -31,7 +31,7 @@ export default function Layout({ children }) {
         />
         <meta
           name="keywords"
-          content="Izdelava spletnih strani, izdelava spletnih trgovin, razvoj mobilnih aplikacij"
+          content="Spletne aplikacije, mobilne aplikacije, SEO optimizacija, MVP razvoj"
         />
         <meta name="author" content="Marcel Golob" />
         <meta name="robots" content="all" />

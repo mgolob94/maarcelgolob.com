@@ -56,17 +56,8 @@ export default function Header() {
               <Link href="https://www.instagram.com/marcelgolobdev/">
                 <Image
                   src="/insta-g.svg"
-                  alt="Izdelava spletnih strani Ljubljana"
-                  title="Izdelava spletnih strani Ljubljana"
-                  width={20}
-                  height={20}
-                />
-              </Link>
-              <Link href="https://www.facebook.com/mg.izdelavaspletnihstrani/">
-                <Image
-                  src="/fb-g.svg"
-                  alt="Izdelava spletnih strani Celje"
-                  title="Izdelava spletnih strani Celje"
+                  alt="Razvoj spletnih aplikacij"
+                  title="Razvoj spletnih aplikacij"
                   width={20}
                   height={20}
                 />
@@ -74,15 +65,15 @@ export default function Header() {
               <Link href="https://www.linkedin.com/in/marcel-golob/">
                 <Image
                   src="/ln-g.svg"
-                  alt="Izdelava spletnih strani Maribor"
-                  title="Izdelava spletnih strani Maribor"
+                  alt="Izdelava spletnih strani"
+                  title="Izdelava spletnih strani"
                   width={20}
                   height={20}
                 />
               </Link>
             </div>
             <div className={`d-none d-lg-block ${styles.contact}`}>
-              <Link href="/contact">Kontakt</Link>
+              <Link href="mailto:info@marcelgolob.com">Kontakt</Link>
             </div>
 
           </div>
@@ -93,17 +84,8 @@ export default function Header() {
               <Link href="https://www.instagram.com/marcelgolobdev/">
                 <Image
                   src="/insta-g.svg"
-                  alt="Izdelava spletnih strani Ljubljana"
-                  title="Izdelava spletnih strani Ljubljana"
-                  width={20}
-                  height={20}
-                />
-              </Link>
-              <Link href="https://www.facebook.com/mg.izdelavaspletnihstrani/">
-                <Image
-                  src="/fb-g.svg"
-                  alt="Izdelava spletnih strani Celje"
-                  title="Izdelava spletnih strani Celje"
+                  alt="Razvoj mobilnih aplikacij"
+                  title="Razvoj mobilnih aplikacij"
                   width={20}
                   height={20}
                 />
@@ -111,15 +93,15 @@ export default function Header() {
               <Link href="https://www.linkedin.com/in/marcel-golob/">
                 <Image
                   src="/ln-g.svg"
-                  alt="Izdelava spletnih strani Maribor"
-                  title="Izdelava spletnih strani Maribor"
+                  alt="Razvoj mobilnih aplikacij"
+                  title="Razvoj mobilnih aplikacij"
                   width={20}
                   height={20}
                 />
               </Link>
             </div>
             <div className={`mt-5 ${styles.contact}`}>
-              <Link href="/contact">Kontakt</Link>
+              <Link href="mailto:info@marcelgolob.com">Kontakt</Link>
             </div>
 
             

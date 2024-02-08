@@ -18,14 +18,14 @@ export default function Projects() {
                   <div className={`position-absolute ${styles.cardContent}`}>
                     <h2 className="projectName m-0 mb-4">Etnobotanika</h2>
                     <h3>Izvajalec: Marcel Golob s.p.</h3>
-                    <h3>Tehnologije: WordPress/WooCommerce</h3>
+                    <h3>Tehnologije: PHP, WordPress/WooCommerce</h3>
                   </div>
                 </div>
                 <Image
                   src="/etnobotanika.png"
-                  alt="Izdelava spletne strani Sanjski atelje"
-                  title="Izdelava spletne strani Sanjski atelje"
-                  tooltip="Izdelava spletne strani Sanjski atelje"
+                  alt="Razvoj spletnih aplikacij"
+                  title="Razvoj spletnih aplikacij"
+                  tooltip="Razvoj spletnih aplikacij"
                   width={1000}
                   height={1000}
                   className="img-fluid w-100"
@@ -42,14 +42,14 @@ export default function Projects() {
                   <div className={`position-absolute ${styles.cardContent}`}>
                     <h2 className="projectName mb-4">Sanjski atelje</h2>
                     <h3>Izvajalec: Marcel Golob s.p.</h3>
-                    <h3>Tehnologije: WordPress</h3>
+                    <h3>Tehnologije: PHP, WordPress</h3>
                   </div>
                 </div>
                 <Image
                   src="/sanjski-atelje.png"
-                  alt="Izdelava spletne strani Web Center"
-                  title="Izdelava spletne strani Web Center"
-                  tooltip="Izdelava spletne strani Web Center"
+                  alt="Razvoj spletnih aplikacij"
+                  title="Razvoj spletnih aplikacij"
+                  tooltip="Razvoj spletnih aplikacij"
                   width={1000}
                   height={1000}
                   className="img-fluid w-100"
@@ -74,9 +74,9 @@ export default function Projects() {
                 </div>
                 <Image
                   src="/bloqit.png"
-                  alt="Izdelava spletne trgovine Izi Froc"
-                  title="Izdelava spletne trgovine Izi Froc"
-                  tooltip="Izdelava spletne trgovine Izi Froc"
+                  alt="Mobilne aplikacije"
+                  title="Mobilne aplikacije"
+                  tooltip="Mobilne aplikacije"
                   width={1000}
                   height={1000}
                   className="img-fluid w-100"
@@ -99,9 +99,9 @@ export default function Projects() {
                 </div>
                 <Image
                   src="/webcenter.png"
-                  alt="Izdelava spletne trgovine Izi Froc"
-                  title="Izdelava spletne trgovine Izi Froc"
-                  tooltip="Izdelava spletne trgovine Izi Froc"
+                  alt="Razvoj mobilnih aplikacij"
+                  title="Razvoj mobilnih aplikacij"
+                  tooltip="Razvoj mobilnih aplikacij"
                   width={1000}
                   height={1000}
                   className="img-fluid w-100"

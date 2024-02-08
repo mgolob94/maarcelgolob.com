@@ -35,12 +35,12 @@ export default function Hero() {
                 Spletne aplikacije | Mobilne aplikacije | SEO optimizacija | MVP razvoj
               </h2>
               <div className="text-center">
-                <Link href="/contact" className={`mt-5 ${styles.actionBtn}`}>
+                <Link href="mailto:info@marcelgolob.com" className={`mt-5 ${styles.actionBtn}`}>
                   ZAČNIMO PROJEKT{" "}
                   <Image
                     src="/arrow.svg"
-                    alt="Izdelava spletnih strani Ljubljana"
-                    title="Izdelava spletnih strani Ljubljana"
+                    alt="Razvoj mobilnih aplikacij"
+                    title="Razvoj mobilnih aplikacij"
                     width={20}
                     height={20}
                   />
