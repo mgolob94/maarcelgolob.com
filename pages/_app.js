@@ -7,7 +7,7 @@ export default function App({ Component, pageProps }) {
   return (
     <>
       <Script
-        src="https://www.googletagmanager.com/gtag/js?id=UA-38046286-1"
+        src="https://www.googletagmanager.com/gtag/js?id=G-4H80G1XSM6" 
         strategy="lazyOnload"
       />
       <Script id="google-analytics" strategy="lazyOnload">
