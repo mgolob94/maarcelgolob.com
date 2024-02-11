@@ -100,7 +100,7 @@ export default function Header() {
                 />
               </Link>
             </div> */}
-            <div className={`mt-5 ${styles.contact}`}>
+            <div className={`${styles.contact}`}>
               <Link href="mailto:info@marcelgolob.com">Kontakt</Link>
             </div>
 

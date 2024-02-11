@@ -104,6 +104,17 @@
 }
 
 @media (max-width: 768px) {
+  .contact a {
+    padding: 25px 55px;
+    border-radius: 50px;
+    border-top-right-radius: 0;
+    font-family: Montserrat,sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 17px;
+  }
+
   .logo {
     height: 50px;
     width: auto;
