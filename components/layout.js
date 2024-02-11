@@ -11,10 +11,10 @@ export default function Layout({ children }) {
   return (
     <>
       <Head>
-        <title>Razvoj inovativnih digitalni rešitev | spletne in mobilne aplikacije, SEO optimizacija, napredni sistemi, MVP razvoj </title>
+        <title>Razvoj digitalni rešitev | spletne in mobilne aplikacije, SEO optimizacija, napredni sistemi, MVP razvoj </title>
         <meta
           property="og:title"
-          content="Razvoj inovativnih digitalni rešitev | spletne in mobilne aplikacije, SEO optimizacija, napredni sistemi, MVP razvoj"
+          content="Razvoj digitalni rešitev | spletne in mobilne aplikacije, SEO optimizacija, napredni sistemi, MVP razvoj"
         />
         <meta
           name="description"

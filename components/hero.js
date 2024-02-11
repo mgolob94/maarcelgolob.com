@@ -14,7 +14,7 @@ export default function Hero() {
                 <div className="typing">
                   {" "}
                   <h1 className="mainTitle text-center">
-                    Razvoj inovativnih <br></br> digitalnih rešitev
+                    Razvoj digitalnih rešitev
                     {/* <Typewriter
                       options={{
                         strings: [
