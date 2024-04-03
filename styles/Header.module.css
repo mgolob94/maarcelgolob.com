@@ -4,7 +4,7 @@
 
 .siteHeader {
   /* background: linear-gradient(90deg, #000000 2.5%, #5e5e5e 98.61%); */
-  box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.1);
+  box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.1);
   padding: 0;
   position: fixed;
   background: white;
