@@ -12,9 +12,9 @@ SwiperCore.use([Navigation, Autoplay]);
 
 const LogoSlider = () => {
   const logos = [
-    "/MiaCo-logo.webp",
+    "/MiaCo-logo.png",
     "/SanjskiAtelje_Logo.png",
-    "/etnobotanika-logotip.webp",
+    "/etnobotanika-logotip.png",
     "/logo-wc.png",
     "/logotip_izifroc.png",
   ];
