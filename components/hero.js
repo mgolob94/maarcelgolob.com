@@ -2,6 +2,7 @@ import Image from "next/image";
 import styles from "../styles/Hero.module.css";
 import Link from "next/link";
 import Typewriter from "typewriter-effect";
+import { Source_Sans_Pro, Oswald } from '@next/font/google';
 
 export default function Hero() {
   return (
@@ -9,34 +10,35 @@ export default function Hero() {
       <section className={`section ${styles.hero}`}>
         <div className="container">
           <div className="row">
-            <div className="col-md-12">
+            <div className="col-md-7">
               <div className="mb-4">
+
+
                 <div className="typing">
                   {" "}
-                  <h1 className="mainTitle text-center">
-                    Razvoj digitalnih rešitev
+                  <h2 className={`mb-3`}>
+                    Hi, I'm Marcel!
                     {/* <Typewriter
                       options={{
                         strings: [
-                          "Razvoj spletnih aplikacij",
-                          "SEO optimizacija",
-                          "Mobilne aplikacije",
+                          "Marcel Golob",
                         ],
                         autoStart: true,
                         loop: true,
                         delay: 120,
                       }}
                     /> */}
-                  </h1>
+                  </h2>
+                  <h1 className={`mb-3`}>A Full-Stack Engineer.
+                  Turning ideas into real life products is my calling</h1>
+
+                  <h3>
+                  I help Startups, Small and Medium-sized Bussiness launch and grow their products.</h3>
                 </div>
               </div>
-
-              <h2 className="text-center">
-                Spletne aplikacije | Mobilne aplikacije | SEO optimizacija | MVP razvoj
-              </h2>
-              <div className="text-center">
-                <Link href="mailto:info@marcelgolob.com" className={`mt-5 ${styles.actionBtn}`}>
-                  ZAČNIMO PROJEKT{" "}
+              <div className="">
+                <Link href="/contact" className={`mt-5 ${styles.actionBtn}`}>
+                  LET'S TALK{" "}
                   <Image
                     src="/arrow.svg"
                     alt="Razvoj mobilnih aplikacij"

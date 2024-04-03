@@ -1,0 +1,6 @@
+.image {
+    height: 200px; /* Set your desired height */
+    width: auto; /* Maintain aspect ratio */
+    object-fit: cover; /* Cover the container without stretching the image */
+}
+  

@@ -9,15 +9,10 @@ export default function Cta() {
         <div className="container">
           <div className={`text-center ${styles.ctaWrapper}`}>
             <h2 className="text-center mb-5">
-              Ste pripravljeni dvigniti vašo spletno podobo na višji nivo?
+              Get Ready to Grow Your Business
             </h2>
-            <p className="mb-4">
-              Izdelava spletne strani je ključnega pomena za uspeh vašega
-              podjetja v današnjem digitalnem svetu. Dovolite nam, da za vas
-              izdelamo unikatno spletno stran, ki bo navdušila.
-            </p>
             <Link href="/contact" className={`mt-4 ${styles.actionBtn}`}>
-              ŽELIM BREZPLAČNO PONUDBO{" "}
+              LET'S CONNECT{" "}
               <Image
                 src="/arrow-green.svg"
                 width={20}

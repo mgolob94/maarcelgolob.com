@@ -5,25 +5,23 @@ import styles from "../styles/Footer.module.css";
 export default function Footer() {
   return (
     <>
-      <footer className={styles.footer}>
-        <div className="container">
-          <div className="row">
-            <div className="col-md-6 copyright text-center mt-3">
-              <Link href="/">
-                <Image
-                  className={styles.logoFooter}
-                  src="/logo.svg"
-                  alt="Izdelava spletnih strani Celje"
-                  title="Izdelava spletnih strani Celje"
-                  width={93}
-                  height={50}
-                />
-              </Link>
-              {/* <p>
-                Copyright © Računalniško programiranje, Marcel Golob, s.p.
-              </p> */}
-            </div>
-            {/* <div className="col-md-4 footerLinks">
+      <section className="mt-5">
+        <footer className={styles.footer}>
+          <div className="container border-top pt-3">
+            <div className="row">
+              <div className="col-md-6 copyright text-center mt-3">
+                <Link href="/">
+                  <Image
+                    className={styles.logoFooter}
+                    src="/logo.svg"
+                    alt="Izdelava spletnih strani Celje"
+                    title="Izdelava spletnih strani Celje"
+                    width={93}
+                    height={50}
+                  />
+                </Link>
+              </div>
+              {/* <div className="col-md-4 footerLinks">
               <h4 className="mb-4">HITRE POVEZAVE</h4>
               <ul>
                 <li>
@@ -40,7 +38,7 @@ export default function Footer() {
                 </li>
               </ul>
             </div> */}
-            {/* <div className="col-md-4 text-center">
+              {/* <div className="col-md-4 text-center">
               <h4 className="mb-4">KONTAKTIRAJ ME</h4>
               <div className={styles.social}>
                 <Link href="https://www.instagram.com/marcelgolobdev/">
@@ -74,7 +72,7 @@ export default function Footer() {
 
             </div> */}
 
-            <div className="col-md-4 text-center">
+              <div className="col-md-4 text-center pt-10">
                 <div className="text-center m-0 d-flex align-items-center justify-content-center h-100 mb-5 md:mb-0">
                   <a
                     href="mailto:info@marcelgolob.com"
@@ -88,15 +86,14 @@ export default function Footer() {
                       alt="Izdelava spletnih strani Celje"
                       title="Izdelava spletnih strani Celje"
                     />
-                    <div className="phoneNumber">
-                        info@marcelgolob.com
-                    </div>
+                    <div className="phoneNumber">info@marcelgolob.com</div>
                   </a>
                 </div>
               </div>
+            </div>
           </div>
-        </div>
-      </footer>
+        </footer>
+      </section>
     </>
   );
 }

@@ -56,8 +56,8 @@ export default function Header() {
               <Link href="https://www.instagram.com/marcelgolobdev/">
                 <Image
                   src="/insta-g.svg"
-                  alt="Razvoj spletnih aplikacij"
-                  title="Razvoj spletnih aplikacij"
+                  alt="Full-Stack Development for MVP"
+                  title="Full-Stack Development for MVP"
                   width={20}
                   height={20}
                 />
@@ -65,15 +65,15 @@ export default function Header() {
               <Link href="https://www.linkedin.com/in/marcel-golob/">
                 <Image
                   src="/ln-g.svg"
-                  alt="Izdelava spletnih strani"
-                  title="Izdelava spletnih strani"
+                  alt="Full-Stack Development for MVP"
+                  title="Full-Stack Development for MVP"
                   width={20}
                   height={20}
                 />
               </Link>
             </div>
             <div className={`d-none d-lg-block ${styles.contact}`}>
-              <Link href="mailto:info@marcelgolob.com">Kontakt</Link>
+              <Link href="/contact">Contact</Link>
             </div>
 
           </div>
@@ -101,7 +101,7 @@ export default function Header() {
               </Link>
             </div> */}
             <div className={`${styles.contact}`}>
-              <Link href="mailto:info@marcelgolob.com">Kontakt</Link>
+              <Link href="/contact">Contact</Link>
             </div>
 
             

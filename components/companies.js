@@ -5,10 +5,25 @@ import styles from "../styles/Companies.module.css";
 export default function Companies() {
   return (
     <>
-      <section className={styles.companies}>
+      <section className="section">
         <div className="container">
-          <h2 className="secondaryTitle">Podjetja, s katerimi sodelujem</h2>
-          <div className="d-flex align-items-center justify-content-between bg-white p-3">
+          <h2 className="mainTitle mb-4">Trusted by.</h2>
+
+          <div className="d-flex align-items-center justify-content-between bg-white p-3 companies">
+            <div>
+              <Link
+                className="cardItem"
+                href="https://etnobotanika.eu"
+                target="__blank"
+              >
+                <Image
+                  src="/etnobotanika-logotip.webp"
+                  alt=""
+                  height={72}
+                  width={72}
+                />
+              </Link>
+            </div>
             <div>
               <Link
                 className="cardItem"
@@ -47,13 +62,19 @@ export default function Companies() {
               </Link>
             </div>
             <div>
-              <Link
+            <Link
                 className="cardItem"
-                href="https://pingoshop.si"
+                href="https://izifroc.com/"
                 target="__blank"
               >
-                <Image src="/pingo.png" alt="" height={72} width={159} />
+                <Image
+                  src="/MiaCo-logo.webp"
+                  alt=""
+                  width={169}
+                  height={72}
+                />
               </Link>
+           
             </div>
           </div>
         </div>

@@ -4,6 +4,9 @@ import Hero from "../components/hero"
 import Cta from "../components/cta"
 import Layout from "../components/layout";
 import Companies from "../components/companies";
+import Expertise from "../components/expertise";
+import ContactForm from "../components/contactForm";
+import LogoSlider from "../components/logoSlider";
 
 
 export default function Index() {
@@ -11,10 +14,8 @@ export default function Index() {
     <div>
       <Layout>
         <Hero />
-        <Projects />
-
-        {/* <Companies /> */}
-        {/* <Cta /> */}
+        <Expertise />
+        <LogoSlider />
       </Layout>
     </div>
   );

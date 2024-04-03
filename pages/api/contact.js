@@ -1,4 +1,4 @@
-export default function (req, res) {
+export default async function (req, res) {
   let nodemailer = require("nodemailer");
   console.log(req.body);
 
@@ -10,17 +10,18 @@ export default function (req, res) {
     },
   });
 
-  const mailData = {
-    from: "marcel.golob@gmail.com",
-    to: "marcel.golob@gmail.com",
-    subject: `Povpraševanje od ${req.body.name} - marcegolob.com`,
-    text: req.body.message,
-    html: `<div>${req.body.message}</div>`,
-  };
-
-  transporter.sendMail(mailData, function (err, info) {
-    if (err) console.log(err);
-    else console.log(info);
-  });
-  res.send(mailData);
+  try {
+    // Send the email
+    await transporter.sendMail({
+      from: "marcel.golob@gmail.com",
+      to: "marcel.golob@gmail.com",
+      subject: "New Contact Form Submission", // Subject line
+      text: `Name: ${req.body.name}\nEmail: ${req.body.email}\nMessage: ${req.body.message}`, // Plain text body
+      html: `<p>Name: ${req.body.name}</p><p>Email: ${req.body.email}</p><p>Message: ${req.body.message}</p>`, // HTML body
+    });
+    res.status(200).json({ status: 'Success', message: 'Email sent successfully' });
+  } catch (error) {
+    console.error(error);
+    res.status(500).json({ status: 'Error', message: 'Error sending email' });
+  }
 }

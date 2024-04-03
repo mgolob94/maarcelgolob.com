@@ -1,0 +1,4 @@
+/.next
+*.webp
+.next/cache/*
+node_modules
