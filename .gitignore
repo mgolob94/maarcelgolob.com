@@ -1,4 +1,4 @@
-/.next
-*.webp
-.next/cache/*
-node_modules
+node_modules/
+.next/
+.swc/
+.*.env
