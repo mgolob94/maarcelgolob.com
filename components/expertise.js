@@ -6,7 +6,7 @@ export default function Expertise() {
       <div className="container">
         <div className="row">
           <div className="col-12 mb-3">
-            <h2 className="mainTitle">Let's work together.</h2>
+            <h2 className="mainTitle">Let's work together</h2>
           </div>
           <div className="col-lg-4 mb-3">
             <div className="box-grey">

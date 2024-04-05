@@ -3,7 +3,6 @@
 }
 
 .siteHeader {
-  /* background: linear-gradient(90deg, #000000 2.5%, #5e5e5e 98.61%); */
   box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.1);
   padding: 0;
   position: fixed;
@@ -36,7 +35,6 @@
 
 #primaryMenu li a {
   font-weight: 500;
-  font-family: "Montserrat", sans-serif;
   font-size: 16px;
   line-height: 20px;
   color: #000;
@@ -61,8 +59,6 @@
   text-decoration: none;
   padding: 10px 30px;
   border-radius: 50px;
-  border-top-right-radius: 0;
-  font-family: "Montserrat", sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 14px;
@@ -108,7 +104,6 @@
     padding: 25px 55px;
     border-radius: 50px;
     border-top-right-radius: 0;
-    font-family: Montserrat,sans-serif;
     font-style: normal;
     font-weight: 600;
     font-size: 22px;

@@ -87,6 +87,7 @@ body {
 
 body {
   background: #fff;
+  font-family: "Source Sans 3", sans-serif;
 }
 
 a {
@@ -111,7 +112,8 @@ h1,h2 {
 }
 
 h3 {
-  font-family: "Source Sans 3", sans-serif;
+  font-family: "Oswald", sans-serif;
+  font-weight: 300;
 }
 
 h3 {
@@ -128,7 +130,7 @@ p {
   color: #434343;
   line-height: normal;
   font-family: "Source Sans 3", sans-serif;
-  text-align: justify;
+  font-weight: 100;
 }
 
 a:hover,

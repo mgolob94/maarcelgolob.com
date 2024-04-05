@@ -14,7 +14,7 @@ export default function Header() {
     <>
       <header className={styles.siteHeader}>
         <div
-          className={`container d-flex justify-content-between align-items-center py-4 ${styles.header}`}
+          className={`container d-flex justify-content-between align-items-center py-3 ${styles.header}`}
         >
           <Link href="/">
             <Image

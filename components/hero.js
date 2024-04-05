@@ -33,7 +33,7 @@ export default function Hero() {
                   Turning ideas into real life products is my calling</h1>
 
                   <h3>
-                  I help Startups, Small and Medium-sized Bussiness launch and grow their products.</h3>
+                  I help Startups, Small and Medium-sized Bussiness launch and grow their digital products.</h3>
                 </div>
               </div>
               <div className="">
