@@ -16,7 +16,7 @@ export default function Expertise() {
                     src="/lunch-app.png"
                     width={40}
                     height={40}
-                    alt="MVP development"
+                    alt="Picture of the author"
                   />
                 </div>
                 <div className="expertise-title">
@@ -41,7 +41,7 @@ export default function Expertise() {
                     src="/coding-app.png"
                     width={40}
                     height={40}
-                    alt="Webh development"
+                    alt="Picture of the author"
                   />
                 </div>
                 <div className="expertise-title">
@@ -66,7 +66,7 @@ export default function Expertise() {
                     src="/mobile-app.png"
                     width={40}
                     height={40}
-                    alt="Mobile development"
+                    alt="Picture of the author"
                   />
                 </div>
                 <div className="expertise-title">
