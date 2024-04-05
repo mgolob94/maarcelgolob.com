@@ -53,7 +53,7 @@ export default function Header() {
           </nav> */}
           <div className="d-none d-lg-flex">
             <div className={`d-none d-lg-flex ${styles.social}`}>
-              <Link href="https://www.instagram.com/marcelgolobdev/">
+              <Link href="https://www.instagram.com/madegreat.dev" target="_blank">
                 <Image
                   src="/insta-g.svg"
                   alt="Full-Stack Development for MVP"
@@ -62,7 +62,7 @@ export default function Header() {
                   height={20}
                 />
               </Link>
-              <Link href="https://www.linkedin.com/in/marcel-golob/">
+              <Link href="https://www.linkedin.com/in/marcel-golob/" target="_blank">
                 <Image
                   src="/ln-g.svg"
                   alt="Full-Stack Development for MVP"

@@ -14,6 +14,7 @@
 .social {
   display: flex;
   margin-right: 20px;
+  align-items: center;
 }
 
 .social a {

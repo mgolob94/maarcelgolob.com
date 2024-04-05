@@ -2,7 +2,7 @@ import Image from "next/image";
 import styles from "../styles/Hero.module.css";
 import Link from "next/link";
 import Typewriter from "typewriter-effect";
-import { Source_Sans_Pro, Oswald } from '@next/font/google';
+import { Source_Sans_Pro, Oswald } from "@next/font/google";
 
 export default function Hero() {
   return (
@@ -10,10 +10,8 @@ export default function Hero() {
       <section className={`section ${styles.hero}`}>
         <div className="container">
           <div className="row">
-            <div className="col-md-7">
+            <div className="col-lg-6">
               <div className="mb-4">
-
-
                 <div className="typing">
                   {" "}
                   <h2 className={`mb-3`}>
@@ -29,11 +27,14 @@ export default function Hero() {
                       }}
                     /> */}
                   </h2>
-                  <h1 className={`mb-3`}>A Full-Stack Engineer.
-                  Turning ideas into real life products is my calling</h1>
-
+                  <h1 className={`mb-3`}>
+                    A Full-Stack Engineer. Turning ideas into real life products
+                    is my calling
+                  </h1>
                   <h3>
-                  I help Startups, Small and Medium-sized Bussiness launch and grow their digital products.</h3>
+                    I help Startups, Small and Medium-sized Bussiness launch and
+                    grow their digital products.
+                  </h3>
                 </div>
               </div>
               <div className="">
@@ -47,6 +48,11 @@ export default function Hero() {
                     height={20}
                   />
                 </Link>
+              </div>
+            </div>
+            <div className="col-lg-6 d-none d-lg-block">
+              <div className="d-flex justify-content-end">
+                <Image src="/pwa.svg" priority width={500} height={400} alt="Web development" />
               </div>
             </div>
           </div>

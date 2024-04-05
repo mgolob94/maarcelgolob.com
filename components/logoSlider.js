@@ -12,11 +12,11 @@ SwiperCore.use([Navigation, Autoplay]);
 
 const LogoSlider = () => {
   const logos = [
-    "/MiaCo-logo.png",
-    "/SanjskiAtelje_Logo.png",
-    "/etnobotanika-logotip.png",
-    "/logo-wc.png",
-    "/logotip_izifroc.png",
+    { src: "/MiaCo-logo.png", url: "https://mia-co.si" },
+    { src: "/SanjskiAtelje_Logo.png", url: "https://sanjskiatelje.si" },
+    { src: "/etnobotanika-logotip.png", url: "https://etnobotanika.eu" },
+    { src: "/logo-wc.png", url: "https://web-center.si" },
+    { src: "/logotip_izifroc.png", url: "https://izifroc.com" },
   ];
 
   return (
@@ -37,11 +37,13 @@ const LogoSlider = () => {
         >
           {logos.map((logo, index) => (
             <SwiperSlide key={index}>
-              <img
-                src={logo}
-                alt={`Logo ${index + 1}`}
-                style={{ width: "100%", objectFit: "contain", height: "80px" }}
-              />
+              <a href={logo.url} target="_blank" rel="noopener noreferrer">
+                <img
+                  src={logo.src}
+                  alt={`Logo ${index + 1}`}
+                  style={{ width: "100%", objectFit: "contain", height: "80px" }}
+                />
+              </a>
             </SwiperSlide>
           ))}
         </Swiper>
