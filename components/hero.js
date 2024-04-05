@@ -13,17 +13,16 @@ export default function Hero() {
             <div className="col-lg-6">
               <div className="mb-4">
                 <div className="typing">
-                  {" "}
-                  <h2 className={`mb-3`}>
-                    Hi, I'm Marcel!
+                  <h2 className={`mb-3 d-flex`}>
+                  Hi, I'm Marcel!
                     {/* <Typewriter
                       options={{
                         strings: [
-                          "Marcel Golob",
+                          "Marcel!",
                         ],
                         autoStart: true,
                         loop: true,
-                        delay: 120,
+                        delay: 150,
                       }}
                     /> */}
                   </h2>
@@ -42,8 +41,8 @@ export default function Hero() {
                   LET'S TALK{" "}
                   <Image
                     src="/arrow.svg"
-                    alt="Razvoj mobilnih aplikacij"
-                    title="Razvoj mobilnih aplikacij"
+                    alt="Web development"
+                    title="Web applications"
                     width={20}
                     height={20}
                   />

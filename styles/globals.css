@@ -107,6 +107,10 @@ h3 {
   color: #333333;
 }
 
+h1 {
+  font-size: 2rem;
+}
+
 h1,h2 {
   font-family: "Oswald", sans-serif;
 }

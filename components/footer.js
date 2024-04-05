@@ -14,8 +14,8 @@ export default function Footer() {
                   <Image
                     className={styles.logoFooter}
                     src="/logo.svg"
-                    alt="Izdelava spletnih strani Celje"
-                    title="Izdelava spletnih strani Celje"
+                    alt="Izdelava spletnih aplikacij"
+                    title="Izdelava spletnih aplikacij"
                     width={93}
                     height={50}
                   />
@@ -83,8 +83,8 @@ export default function Footer() {
                       src="/envelope-solid.svg"
                       width={30}
                       height={30}
-                      alt="Izdelava spletnih strani Celje"
-                      title="Izdelava spletnih strani Celje"
+                      alt="Izdelava spletnih aplikacij"
+                      title="Izdelava spletnih aplikacij"
                     />
                     <div className="phoneNumber">info@marcelgolob.com</div>
                   </a>
