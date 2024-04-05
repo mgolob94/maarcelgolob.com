@@ -345,6 +345,10 @@ li.current-menu-item {
   border-radius: 50px;
 }
 
+.expertise-icon img {
+  filter: invert(100%);
+}
+
 .box-grey {
   border: 2px solid #ececec;
   padding: 25px;
