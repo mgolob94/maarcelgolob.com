@@ -107,7 +107,8 @@ h3 {
   color: #333333;
 }
 
-h1,h2 {
+h1,
+h2 {
   font-family: "Oswald", sans-serif;
 }
 
@@ -386,17 +387,17 @@ li.current-menu-item {
 
 .contactForm button {
   display: inline-block;
-    background: linear-gradient(90deg, #058b8c 3.38%, #058b8c 100%);
-    color: #fff;
-    text-decoration: none;
-    padding: 15px 40px;
-    border-radius: 50px;
-    border: 0;
-    font-family: "Source Sans 3", sans-serif;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 18px;
-    line-height: 18px;
+  background: linear-gradient(90deg, #058b8c 3.38%, #058b8c 100%);
+  color: #fff;
+  text-decoration: none;
+  padding: 15px 40px;
+  border-radius: 50px;
+  border: 0;
+  font-family: "Source Sans 3", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 18px;
 }
 
 .section-grey {
@@ -406,14 +407,45 @@ li.current-menu-item {
 .btn-primary {
   display: inline-block;
   font-family: "Source Sans 3", sans-serif;
-    background: linear-gradient(90deg, #058b8c 3.38%, #058b8c 100%);
-    color: #fff;
-    text-decoration: none;
-    padding: 25px 50px;
-    border-radius: 50px;
-    border: 0;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 18px;
-    line-height: 18px;
+  background: linear-gradient(90deg, #058b8c 3.38%, #058b8c 100%);
+  color: #fff;
+  text-decoration: none;
+  padding: 25px 50px;
+  border-radius: 50px;
+  border: 0;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 18px;
+}
+.btn-primary-small {
+  display: inline-block;
+  font-family: "Source Sans 3", sans-serif;
+  background: linear-gradient(90deg, #058b8c 3.38%, #058b8c 100%);
+  color: #fff;
+  text-decoration: none;
+  padding: 5px 10px;
+  border-radius: 50px;
+  border: 0;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 18px;
+  margin: 0 5px;
+}
+
+.btn-secondary-small {
+  display: inline-block;
+  font-family: "Source Sans 3", sans-serif;
+  background: #333333;
+  color: #fff;
+  text-decoration: none;
+  padding: 5px 10px;
+  border-radius: 50px;
+  border: 0;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 18px;
+  margin: 0 5px;
 }

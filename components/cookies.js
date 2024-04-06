@@ -34,10 +34,13 @@ const CookieConsentBanner = () => {
   if (!isVisible) return null;
 
   return (
-    <div style={{ position: 'fixed', bottom: 0, width: '100%', padding: '20px', backgroundColor: '#f8f9fa', textAlign: 'center', zIndex: 1000 }}>
-      <p>We use cookies to improve your experience. Do you accept?</p>
-      <button onClick={() => handleConsent('granted')}>Accept</button>
-      <button onClick={() => handleConsent('denied')}>Reject</button>
+    <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', position: 'fixed', bottom: 0, width: '100%', padding: '20px', backgroundColor: '#f8f9fa', textAlign: 'center', zIndex: 1000 }}>
+      <p className='m-0'>We use cookies to improve your experience. Do you accept?</p>
+      <div style={{ marginLeft: '15px'}}>
+      <button className='btn-primary-small' onClick={() => handleConsent('granted')}>Accept</button>
+      <button className='btn-secondary-small' onClick={() => handleConsent('denied')}>Reject</button>
+      </div>
+     
     </div>
   );
 };
