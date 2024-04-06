@@ -1,6 +1,6 @@
 // components/CookieConsentBanner.js
 import { useEffect, useState } from 'react';
-import { acceptGTM } from '../lib/gtm';
+import { acceptGTM, declineGTM } from '../lib/gtm';
 
 const CookieConsentBanner = () => {
   const [isVisible, setIsVisible] = useState(false);
@@ -9,14 +9,21 @@ const CookieConsentBanner = () => {
     const consent = localStorage.getItem('cookie-consent');
     if (!consent) {
       setIsVisible(true);
+    } else {
+      acceptGTM();
     }
   }, []);
 
   const handleConsent = (consent) => {
     localStorage.setItem('cookie-consent', consent);
     setIsVisible(false);
-    // Update consent in the data layer
-    acceptGTM();
+
+    if(consent === 'granted') {
+        acceptGTM();
+    } else {
+        declineGTM();
+    }
+
     // window.dataLayer.push({
     //   event: 'gtm_consent_update',
     //   'ad_storage': consent === 'granted' ? 'granted' : 'denied',
