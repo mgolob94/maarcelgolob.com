@@ -16,7 +16,7 @@ const CookieConsentBanner = () => {
     setIsVisible(false);
     // Update consent in the data layer
     window.dataLayer.push({
-      event: 'consentUpdate',
+      event: 'gtm_consent_update',
       'ad_storage': consent === 'granted' ? 'granted' : 'denied',
       'analytics_storage': consent === 'granted' ? 'granted' : 'denied',
     });
