@@ -23,12 +23,6 @@ const CookieConsentBanner = () => {
     } else {
         declineGTM();
     }
-
-    // window.dataLayer.push({
-    //   event: 'gtm_consent_update',
-    //   'ad_storage': consent === 'granted' ? 'granted' : 'denied',
-    //   'analytics_storage': consent === 'granted' ? 'granted' : 'denied',
-    // });
   };
 
   if (!isVisible) return null;
