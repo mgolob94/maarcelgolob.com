@@ -7,6 +7,8 @@ import Companies from "../components/companies";
 import Expertise from "../components/expertise";
 import ContactForm from "../components/contactForm";
 import LogoSlider from "../components/logoSlider";
+import {GetStaticPropsContext} from 'next';
+import {useTranslations} from 'next-intl';
 
 
 export default function Index() {
@@ -19,4 +21,12 @@ export default function Index() {
       </Layout>
     </div>
   );
+}
+
+export async function getStaticProps({locale}) {
+  return {
+    props: {
+      messages: (await import(`../messages/${locale}.json`)).default
+    }
+  };
 }

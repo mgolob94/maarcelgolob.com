@@ -1,18 +1,14 @@
+const createNextIntlPlugin = require('next-intl/plugin');
+
 /** @type {import('next').NextConfig} */
+
 const nextConfig = {
-  reactStrictMode: true,
-  // images: {
-  //   remotePatterns: [
-  //     {
-  //       protocol: "https",
-  //       hostname: "marcelgolob.com",
-  //     },
-  //   ],
-  // },
+  reactStrictMode: false,
+  i18n: {
+    locales: ['en', 'sl'],
+    defaultLocale: 'sl',
+  }
 };
 
-const withBundleAnalyzer = require("@next/bundle-analyzer")({
-  enabled: process.env.ANALYZE === "true",
-});
-module.exports = withBundleAnalyzer({});
 module.exports = nextConfig;
+

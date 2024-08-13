@@ -1,10 +1,16 @@
+"use client";
+
 import Image from "next/image";
 import styles from "../styles/Hero.module.css";
 import Link from "next/link";
 import Typewriter from "typewriter-effect";
 import { Source_Sans_Pro, Oswald } from "@next/font/google";
+import React, { useState, useEffect } from "react";
+import { useTranslations } from "next-intl";
 
-export default function Hero() {
+const Hero = React.memo(function Hero() {
+  const t = useTranslations();
+
   return (
     <>
       <section className={`section ${styles.hero}`}>
@@ -13,28 +19,9 @@ export default function Hero() {
             <div className="col-lg-6">
               <div className="mb-4">
                 <div className="typing">
-                  {" "}
-                  <h2 className={`mb-3`}>
-                    Hi, I'm Marcel!
-                    {/* <Typewriter
-                      options={{
-                        strings: [
-                          "Marcel Golob",
-                        ],
-                        autoStart: true,
-                        loop: true,
-                        delay: 120,
-                      }}
-                    /> */}
-                  </h2>
-                  <h1 className={`mb-3`}>
-                    A Full-Stack Engineer. Turning ideas into real life products
-                    is my calling
-                  </h1>
-                  <h3>
-                    I help Startups, Small and Medium-sized Bussiness launch and
-                    grow their digital products.
-                  </h3>
+                  <h2 className={`mb-3`}>{t("wellcome")}</h2>
+                  <h1 className={`mb-3`}>{t("title")}</h1>
+                  {/* <h3>{t("description")}</h3> */}
                 </div>
               </div>
               <div className="">
@@ -52,7 +39,13 @@ export default function Hero() {
             </div>
             <div className="col-lg-6 d-none d-lg-block">
               <div className="d-flex justify-content-end">
-                <Image src="/pwa.svg" priority width={500} height={400} alt="Web development" />
+                <Image
+                  src="/pwa.svg"
+                  priority
+                  width={500}
+                  height={400}
+                  alt="Web development"
+                />
               </div>
             </div>
           </div>
@@ -60,4 +53,5 @@ export default function Hero() {
       </section>
     </>
   );
-}
+});
+export default Hero;
