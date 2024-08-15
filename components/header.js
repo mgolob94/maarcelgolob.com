@@ -20,8 +20,8 @@ export default function Header() {
             <Image
               className={styles.logo}
               src="/logo.svg"
-              alt="Izdelava spletnih trgovin"
-              title="Izdelava spletnih strani"
+              alt="Izdelava spletne trgovine"
+              title="Izdelava spletne trgovine"
               width={93}
               height={50}
             />
@@ -56,8 +56,8 @@ export default function Header() {
               <Link href="https://www.instagram.com/madegreat.dev" target="_blank">
                 <Image
                   src="/insta-g.svg"
-                  alt="Full-Stack Development for MVP"
-                  title="Full-Stack Development for MVP"
+                  alt="MVP"
+                  title="MVP"
                   width={20}
                   height={20}
                 />
@@ -65,8 +65,8 @@ export default function Header() {
               <Link href="https://www.linkedin.com/in/marcel-golob/" target="_blank">
                 <Image
                   src="/ln-g.svg"
-                  alt="Full-Stack Development for MVP"
-                  title="Full-Stack Development for MVP"
+                  alt="Izdelava spletnih strani Ljubljana"
+                  title="Izdelava spletnih strani Ljubljana"
                   width={20}
                   height={20}
                 />

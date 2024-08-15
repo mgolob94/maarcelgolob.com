@@ -15,12 +15,12 @@ export default function Layout({ children }) {
         />
         <meta
           name="description"
-          content="I help Startups, Small and Medium-sized Bussiness launch and grow their products."
+          content="Pomagam zagonskim podjetjem ter malim in srednje velikim podjetjem pri lansiranju in rasti njihovih izdelkov."
           key="desc"
         />
         <meta
           property="og:description"
-          content="I help Startups, Small and Medium-sized Bussiness launch and grow their products."
+          content="Pomagam zagonskim podjetjem ter malim in srednje velikim podjetjem pri lansiranju in rasti njihovih izdelkov."
         />
         <meta
           property="og:image"
@@ -28,7 +28,7 @@ export default function Layout({ children }) {
         />
         <meta
           name="keywords"
-          content="MVP Development for Startups, Web Solutions, Mobile Applications"
+          content="izdelava spletne strani, izdelava spletnih strani, izdelava spletnih trgovin, izdelava spletne trgovine, razvoj spletnih aplikacij"
         />
         <meta name="author" content="Marcel Golob" />
         <meta name="robots" content="all" />

@@ -29,8 +29,8 @@ const Hero = React.memo(function Hero() {
                 {t("letstalk")}
                   <Image
                     src="/arrow.svg"
-                    alt="Razvoj mobilnih aplikacij"
-                    title="Razvoj mobilnih aplikacij"
+                      alt="Izdelava spletnih strani Ljubljana"
+                    title="Izdelava spletnih strani Ljubljana"
                     width={20}
                     height={20}
                   />
@@ -44,7 +44,7 @@ const Hero = React.memo(function Hero() {
                   priority
                   width={500}
                   height={400}
-                  alt="Web development"
+                  alt="Izdelava spletnih strani Maribor"
                 />
               </div>
             </div>
