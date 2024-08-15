@@ -7,7 +7,7 @@ export default function Companies() {
     <>
       <section className="section">
         <div className="container">
-          <h2 className="mainTitle mb-4">Trusted by.</h2>
+          <h2 className="mainTitle mb-4">{t("trusted")}</h2>
 
           <div className="d-flex align-items-center justify-content-between bg-white p-3 companies">
             <div>

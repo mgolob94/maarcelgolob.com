@@ -22,7 +22,7 @@ const LogoSlider = () => {
   return (
     <section className="section">
       <div className="container">
-        <h2 className="mainTitle mb-5">Trusted by</h2>
+        <h2 className="mainTitle mb-5">{t("trusted")}</h2>
         <Swiper
       modules={[Navigation, Pagination, Scrollbar, A11y, Autoplay ]}
       spaceBetween={50}
