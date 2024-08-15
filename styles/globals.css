@@ -449,3 +449,7 @@ li.current-menu-item {
   line-height: 18px;
   margin: 0 5px;
 }
+
+.container {
+  max-width: 1920px;
+}
