@@ -5,12 +5,14 @@ import "swiper/css/navigation"; // Navigation module styles
 import "swiper/css/autoplay";
 import SwiperCore from "swiper";
 import { Navigation, Pagination, Scrollbar, A11y, Autoplay } from 'swiper/modules';
-
+import { useTranslations } from "next-intl";
 
 // Enable Navigation and Autoplay modules
 SwiperCore.use([Navigation, Autoplay]);
 
 const LogoSlider = () => {
+  const t = useTranslations();
+
   const logos = [
     { src: "/MiaCo-logo.png", url: "https://mia-co.si" },
     { src: "/SanjskiAtelje_Logo.png", url: "https://sanjskiatelje.si" },

@@ -1,8 +1,11 @@
 import Image from "next/image";
 import Link from "next/link";
 import styles from "../styles/Companies.module.css";
+import { useTranslations } from "next-intl";
 
 export default function Companies() {
+  const t = useTranslations();
+
   return (
     <>
       <section className="section">
