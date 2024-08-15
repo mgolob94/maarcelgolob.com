@@ -26,7 +26,7 @@ const Hero = React.memo(function Hero() {
               </div>
               <div className="">
                 <Link href="/contact" className={`mt-5 ${styles.actionBtn}`}>
-                  LET'S TALK{" "}
+                {t("letstalk")}
                   <Image
                     src="/arrow.svg"
                     alt="Razvoj mobilnih aplikacij"

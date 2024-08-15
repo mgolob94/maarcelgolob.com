@@ -6,7 +6,7 @@ export default function Expertise() {
       <div className="container">
         <div className="row">
           <div className="col-12 mb-3">
-            <h2 className="mainTitle">Let's work together</h2>
+            <h2 className="mainTitle">{t("together")}</h2>
           </div>
           <div className="col-lg-4 mb-3">
             <div className="box-grey">
@@ -21,15 +21,12 @@ export default function Expertise() {
                 </div>
                 <div className="expertise-title">
                   <h3>
-                    MVP Development
-                    <br /> for Startups
+                  {t("mvp")}
                   </h3>
                 </div>
               </div>
               <p>
-                Specialized in MVP (Minimum Viable Product) development for
-                startups, focusing on rapid, lean methodologies to bring
-                innovative ideas to market swiftly.
+                {t("mvp_desc")}
               </p>
             </div>
           </div>
@@ -46,15 +43,12 @@ export default function Expertise() {
                 </div>
                 <div className="expertise-title">
                   <h3>
-                    Web <br />
-                    Solutions
+                  {t("web")}
                   </h3>
                 </div>
               </div>
               <p>
-                With a deep understanding of modern web technologies and best
-                practices, I design and develop websites and web applications
-                that are robust, scalable, and user-friendly.
+              {t("web_desc")}
               </p>
             </div>
           </div>
@@ -71,15 +65,12 @@ export default function Expertise() {
                 </div>
                 <div className="expertise-title">
                   <h3>
-                    Mobile
-                    <br /> Applications
+                  {t("mobile")}
                   </h3>
                 </div>
               </div>
               <p>
-                My proficiency with Flutter allows for the development of
-                visually striking and smooth-running apps, ensuring consistent
-                user experiences across Android and iOS platforms.
+              {t("mobile_desc")}
               </p>
             </div>
           </div>

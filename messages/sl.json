@@ -4,11 +4,12 @@
     "description": "Pomagam zagonskim, malim ter srednje velikim podjetjem pri zagonu in rasti njihovih digitalnih izdelkov.",
     "letstalk": "POGOVORIMO SE",
     "work": "Ustvarjajmo skupaj",
-    "mvp": "MVP Development for Startups",
-    "web": "Web Solutions",
-    "mobile": "Mobile Applications",
-    "mvp_desc": "Specialized in MVP (Minimum Viable Product) development for startups, focusing on rapid, lean methodologies to bring innovative ideas to market swiftly.",
-    "eb_desc": "With a deep understanding of modern web technologies and best practices, I design and develop websites and web applications that are robust, scalable, and user-friendly.",
-    "mobile_desc": "My proficiency with Flutter allows for the development of visually striking and smooth-running apps, ensuring consistent user experiences across Android and iOS platforms.",
-    "trusted": "Trusted by"
+    "mvp": "MVP razvoj za zagonska podjetja",
+    "web": "Spletne rešitve",
+    "mobile": "Mobilne aplikacije",
+    "mvp_desc": "Razvoj MVP za zagonska podjetja, s poudarkom na hitrih, vitkih metodologijah, ki omogočajo hitro lansiranje inovativnih idej na trg.",
+    "web_desc": "S poglobljenim razumevanjem sodobnih spletnih tehnologij in najboljših praks načrtujem in razvijam spletne strani in spletne aplikacije, ki so zanesljive, prilagodljive in uporabniku prijazne.",
+    "mobile_desc": "Razvoj vizualno privlačnih in tekoče delujočih aplikacij, ki zagotavljajo dosledno uporabniško izkušnjo na platformah Android in iOS.",
+    "trusted": "Zaupajo mi",
+    "together": "Storitve"
 }
