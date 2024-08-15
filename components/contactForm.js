@@ -1,6 +1,8 @@
 import React, { useState } from "react";
+import { useTranslations } from "next-intl";
 
 const ContactForm = () => {
+  const t = useTranslations();
   const [isSubmitted, setIsSubmitted] = useState(false);
   const [formMessage, setFormMessage] = useState("");
   const [errors, setErrors] = useState({}); // State to keep track of errors
@@ -74,7 +76,7 @@ const ContactForm = () => {
       <div className="container">
         <div className="row">
           <div className="col-md-7">
-            <h2 className="mainTitle mb-4">Contact me.</h2>
+            <h2 className="mainTitle mb-4">  {t("contact")}</h2>
             <form onSubmit={handleSubmit} noValidate>
               <div>
                 <input

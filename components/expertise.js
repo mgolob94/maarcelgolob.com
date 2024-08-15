@@ -1,6 +1,9 @@
 import Image from "next/image";
+import { useTranslations } from "next-intl";
 
 export default function Expertise() {
+  const t = useTranslations();
+
   return (
     <section className="section">
       <div className="container">
