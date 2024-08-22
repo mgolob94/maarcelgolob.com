@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { useTranslations } from "next-intl";
 
 const ContactForm = () => {
-  const t = useTranslations();
+  
   const [isSubmitted, setIsSubmitted] = useState(false);
   const [formMessage, setFormMessage] = useState("");
   const [errors, setErrors] = useState({}); // State to keep track of errors
@@ -71,12 +71,14 @@ const ContactForm = () => {
     );
   }
 
+  const t = useTranslations();
+
   return (
     <section className="section contactForm">
       <div className="container">
         <div className="row">
           <div className="col-md-7">
-            <h2 className="mainTitle mb-4">  {t("contact")}</h2>
+            <h2 className="mainTitle mb-4"> Kontaktirajte me</h2>
             <form onSubmit={handleSubmit} noValidate>
               <div>
                 <input
@@ -84,7 +86,7 @@ const ContactForm = () => {
                   type="text"
                   name="name"
                   id="name"
-                  placeholder="Name"
+                  placeholder="Ime in priimek"
                 />
                 {errors.name && <p className="error text-danger">{errors.name}</p>}
               </div>
@@ -94,7 +96,7 @@ const ContactForm = () => {
                   type="text"
                   name="email"
                   id="email"
-                  placeholder="E-mail"
+                  placeholder="E-pošta"
                 />
                 {errors.name && <p className="error text-danger">{errors.email}</p>}
               </div>
@@ -103,11 +105,11 @@ const ContactForm = () => {
                   className="w-100"
                   id="message"
                   name="message"
-                  placeholder="Message"
+                  placeholder="Sporočilo"
                 ></textarea>
                 {errors.name && <p className="error text-danger">{errors.message}</p>}
               </div>
-              <button type="submit">Send</button>
+              <button type="submit">Pošlji</button>
             </form>
           </div>
         </div>

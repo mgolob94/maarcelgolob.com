@@ -22,13 +22,13 @@ const LogoSlider = () => {
   ];
 
   return (
-    <section className="section">
+    <section>
       <div className="container">
-        <h2 className="mainTitle mb-5">{t("trusted")}</h2>
+        {/* <h2 className="mainTitle mb-5">{t("trusted")}</h2> */}
         <Swiper
       modules={[Navigation, Pagination, Scrollbar, A11y, Autoplay ]}
       spaceBetween={50}
-          slidesPerView={4} // Adjust based on your requirement
+          slidesPerView={5} // Adjust based on your requirement
           autoplay={{
             delay: 3000,
           }}

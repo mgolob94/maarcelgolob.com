@@ -140,16 +140,16 @@ a:focus {
 }
 
 .section {
-  padding: 50px 0;
+  padding: 85px 0;
 }
 
 .mainTitle {
   position: relative;
   padding-top: 16px;
   font-style: normal;
-  font-weight: 600;
-  font-size: 48px;
-  line-height: 63px;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 45px;
   color: #333333;
 }
 
@@ -353,7 +353,8 @@ li.current-menu-item {
 }
 
 .box-grey {
-  border: 2px solid #ececec;
+  background: #fafafa;
+  border-radius: 10px;
   padding: 25px;
   height: 100%;
 }
@@ -451,5 +452,5 @@ li.current-menu-item {
 }
 
 .container {
-  max-width: 1920px;
+  max-width: 1200px;
 }

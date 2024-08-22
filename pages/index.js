@@ -16,8 +16,8 @@ export default function Index() {
     <div>
       <Layout>
         <Hero />
-        <Expertise />
         <LogoSlider />
+        <Expertise />
       </Layout>
     </div>
   );

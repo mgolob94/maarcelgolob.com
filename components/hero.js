@@ -19,8 +19,8 @@ const Hero = React.memo(function Hero() {
             <div className="col-lg-6">
               <div className="mb-4">
                 <div className="typing">
-                  <h2 className={`mb-3`}>{t("wellcome")}</h2>
                   <h1 className={`mb-3`}>{t("title")}</h1>
+                  <h2 className={`mb-3`}>{t("wellcome")}</h2>
                   {/* <h3>{t("description")}</h3> */}
                 </div>
               </div>
